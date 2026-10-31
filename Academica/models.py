@@ -7,6 +7,11 @@ class Faculty(models.Model):
     faculty_id = models.CharField(max_length=10, primary_key=True)
     faculty_name = models.CharField(max_length=200)
     faculty_description = models.TextField()
+    faculty_image = models.ImageField(
+        upload_to='faculties/',
+        blank=True,
+        null=True
+    )
 
     def __str__(self):
         return self.faculty_id
