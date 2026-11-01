@@ -1,0 +1,20 @@
+[
+{
+  "model": "Academica.faculty",
+  "pk": "10",
+  "fields": {
+    "faculty_name": "Facultad de Ingeniería",
+    "faculty_description": "Facultad",
+    "faculty_image": "faculties/El_texto_del_párrafo.jpg"
+  }
+},
+{
+  "model": "Academica.faculty",
+  "pk": "20",
+  "fields": {
+    "faculty_name": "Facultad de Diseño",
+    "faculty_description": "Diseños",
+    "faculty_image": "faculties/El_texto_del_párrafo_3.jpg"
+  }
+}
+]
