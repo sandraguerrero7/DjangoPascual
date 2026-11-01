@@ -3,18 +3,18 @@
   "model": "Academica.faculty",
   "pk": "10",
   "fields": {
-    "faculty_name": "Facultad de Ingeniería",
+    "faculty_name": "Facultad de Ingenieria",
     "faculty_description": "Facultad",
-    "faculty_image": "faculties/El_texto_del_párrafo.jpg"
+    "faculty_image": "faculties/El_texto_del_pÃ¡rrafo.jpg"
   }
 },
 {
   "model": "Academica.faculty",
   "pk": "20",
   "fields": {
-    "faculty_name": "Facultad de Diseño",
-    "faculty_description": "Diseños",
-    "faculty_image": "faculties/El_texto_del_párrafo_3.jpg"
+    "faculty_name": "Facultad de DiseÃ±o",
+    "faculty_description": "DiseÃ±os",
+    "faculty_image": "faculties/El_texto_del_pÃ¡rrafo_3.jpg"
   }
 }
 ]

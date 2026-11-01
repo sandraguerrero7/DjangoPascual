@@ -7,7 +7,7 @@ from Academica.views import listaFacultades
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('facultades/', listaFacultades)
+    path('facultades/', listaFacultades,  name='listado_facultades')
 ]
 
 if settings.DEBUG:
