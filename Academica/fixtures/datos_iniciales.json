@@ -4,17 +4,41 @@
   "pk": "10",
   "fields": {
     "faculty_name": "Facultad de Ingenieria",
-    "faculty_description": "Facultad",
-    "faculty_image": "faculties/El_texto_del_pÃ¡rrafo.jpg"
+    "faculty_description": "La Facultad de Ingeniería promueve la formación integral de profesionales con capacidades para diseñar, desarrollar e implementar soluciones tecnológicas e innovadoras. Sus programas académicos abarcan áreas como sistemas digitales, desarrollo de software, electrónica y otras disciplinas de la ingeniería, contribuyendo a la transformación digital y al desarrollo de la sociedad.",
+    "faculty_image": "faculties/El_texto_del_párrafo.jpg"
   }
 },
 {
   "model": "Academica.faculty",
   "pk": "20",
   "fields": {
-    "faculty_name": "Facultad de DiseÃ±o",
-    "faculty_description": "DiseÃ±os",
-    "faculty_image": "faculties/El_texto_del_pÃ¡rrafo_3.jpg"
+    "faculty_name": "Facultad de Diseño",
+    "faculty_description": "La Facultad de Diseño impulsa la formación de profesionales creativos capaces de desarrollar propuestas innovadoras que integran estética, funcionalidad y tecnología. Sus áreas de formación promueven el pensamiento creativo, la comunicación visual y el diseño de soluciones orientadas a las necesidades del entorno.",
+    "faculty_image": "faculties/El_texto_del_párrafo_3.jpg"
+  }
+},
+{
+  "model": "Academica.department",
+  "pk": "111",
+  "fields": {
+    "department_name": "Departamento de Sistemas Digitales",
+    "faculty": "10"
+  }
+},
+{
+  "model": "Academica.department",
+  "pk": "112",
+  "fields": {
+    "department_name": "Departamento de Eléctrica",
+    "faculty": "10"
+  }
+},
+{
+  "model": "Academica.department",
+  "pk": "211",
+  "fields": {
+    "department_name": "Departamento de Diseño gráfico",
+    "faculty": "20"
   }
 }
 ]

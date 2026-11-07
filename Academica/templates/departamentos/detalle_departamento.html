@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Detalle del Departamento
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-4">
+
+    <h1 class="mb-4">Detalle del Departamento</h1>
+
+    <div class="card">
+        <div class="card-body">
+
+            <h5 class="card-title">
+                {{ departamento.department_name }}
+            </h5>
+
+            <p>
+                <strong>ID:</strong>
+                {{ departamento.department_id }}
+            </p>
+
+            <p>
+                <strong>Nombre:</strong>
+                {{ departamento.department_name }}
+            </p>
+
+            <p>
+                <strong>Facultad asociada:</strong>
+                {{ departamento.faculty.faculty_name }}
+            </p>
+
+            <a href="{% url 'listado_dptos' %}"
+               class="theme-primary btn-solid btn-styled">
+                Volver al listado
+            </a>
+
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

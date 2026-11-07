@@ -21,7 +21,6 @@
             <tr>
                 <th scope="col">ID Facultad</th>
                 <th scope="col">Nombre Facultad</th>
-                <th scope="col">Descripción</th>
                 <th scope="col">Logo</th>
                 <th scope="col">Acciones</th>
             </tr>
@@ -36,8 +35,6 @@
 
                     <td>{{ facultad.faculty_name }}</td>
 
-                    <td>{{ facultad.faculty_description }}</td>
-
                     <td>
                         {% if facultad.faculty_image %}
                             <img src="{{ facultad.faculty_image.url }}"
@@ -49,6 +46,10 @@
                     </td>
 
                     <td>
+                        <a href="{% url 'detalleFacultad' facultad.faculty_id %}" type="button" class="theme-warning btn-solid btn-styled">
+                            Ver detalle
+                        </a>
+
                         <a href="#" type="button" class="theme-primary btn-solid btn-styled">
                             Editar
                         </a>
